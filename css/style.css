@@ -72,6 +72,28 @@ ul li a {
   .header-nav a {
     color: #fff;
   }
+  #hero-outer {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+  }
+  #hero-image {
+    background-image: url("/images/main_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+  }
+
+  .opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
   @media only screen and (max-width: 639px) {
     .grid-responsive{
