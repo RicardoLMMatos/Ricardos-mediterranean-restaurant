@@ -2,60 +2,225 @@
 <html lang="en-GB">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.1">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-
-  <title>Ricardo's Restaurant</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <title>Ricardo's Restaurant</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="grid-container">
-      <div class="grid grid-responsive">
-        <div class="column-6">
-          <span class="logo"><a href="index.html">Ricardo's</a></span>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="column d-col-6">
+                    <span class="logo"><a href="index.html">Ricardo's</a></span>
+                </div>
+                <div class="column d-col-6">
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Our menus</a></li>
+                            <li><a href="#">Gallery</li></a>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
-        <div class="column-6">
-          <nav class="header-nav">
-            <ul>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Book a table</a></li>
+    </header>
+
+    <body>
+        <!--hero image and welcome text-->
+
+        <!-- Use classes. I generally use IDs for JavaScript, Forms, Menus, Blog single pages. Not for page sections -->
+        <!-- This is because a page section can be used more than once on a page -->
+
+        <section class="hero-outer">
+            <!-- full width -->
+            <div class="opaque-overlay"></div>
+            <div class="hero-image"></div>
+            <!-- Let's use the grid system here (can use this in any section) -->
+            <div class="container">
+                <div class="row">
+                    <div class="column m-col-6 t-col-6 d-col-6">
+                        <!-- I renamed cover text to hero text as it is part of the hero -->
+                        <div class="hero-text">
+                            <h1>Ricardo's</h1>
+                            <br>
+                            <br>
+                            <h3>Ricardo's offers the finnest Mediterranean food <br>always freshly-prepared and served
+                                in comfortable and contemporary surroundings with a vibrant atmosphere and warm service
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--menus pics with links to full menus-->
+        <section class="menus">
+            <!-- container, row and column are reusable inside any section -->
+            <!-- card section is reusable inside any section -->
+            <div class="container">
+                <div class="row">
+                    <div class="column t-col-6 d-col-3">
+                        <div class="card">
+                            <div class="card-section column-menus">
+                                <a href="#" target="_blank"><img class="menu-pics" src="../images/main-menu.jpg"
+                                        alt="main menu image"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-menus">
+                        <div class="card">
+                            <div class="card-section">
+                                <a href="#" target="_blank"><img class="menu-pics" src="../images/kids-menu.jpg"
+                                        alt="kids menu image"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-menus">
+                        <div class="card">
+                            <div class="card-section">
+                                <a href="#" target="_blank"><img class="menu-pics" src="../images/christmas-menu.jpg"
+                                        alt="christmas menu image"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--reviews-->
+        <section class="reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="column m-col-6 t-col-6 d-col-6">
+                        <div class="card">
+                            <p>Reviews</p>
+                            <br>
+                            <div class="reviews-slick">
+                                <div>
+                                    <h2>&star; &star; &star; &star; &star;</h2>
+                                    
+                                    <h2>Amazing food and hospitality 
+                                        <br>
+                                        First meal here tonight for our wedding anniversary, and definitely will not not
+                                        be the last. Superbly cooked food and amazingly tender. Great authentic food
+                                        cooked to perfection. So good in fact, we have booked again.... that says it
+                                        all.</h2>
+                                </div>
+                                <div>
+                                    <h2>Great food and friendly service.
+                                        <br>
+                                        I visited this restaurant yesterday late afternoon for an office leaving do. The
+                                        service was first class, the menu choices very good and value excellent. We were
+                                        sitting upstairs and the restaurant has a good atmosphere. Plenty of choice for
+                                        everyone. I will return.</h2>
+                                </div>
+                                <div>
+                                    <h2>&star; &star; &star; &star; &star;</h2>
+                                    <h2>Great meal
+                                        <br>
+                                        As always great service. The food is delicioso and flavours excellent. The place
+                                        is spotlessly clean and very relaxing.</h2>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--contact-->
+        <section class="info-outer">
+            <div class="container">
+                <div class="row ">
+                    <div class="column t-col-6 d-col-3 column-reviews">
+                        <div class="card">
+                            <div class="card-section">
+                                <div class="call-us">
+                                    <h2>Book Now!</h2>
+                                    <br>
+                                    <br>
+                                    <h3>To avoid disappointment, we recommend you book your table or party in advance
+                                    </h3>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="contact.html" target="_blank" class="call-us-link">GIVE US A CALL</a>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-reviews">
+                        <div class="card">
+                            <div class="card-section">
+                                <h2>Open Hours</h2>
+                                <br>
+                                <br>
+                                <h3>Mon-Sat</h3>
+                                <br>
+                                <p>12pm-2pm</p>
+                                <p>5pm-10pm</p>
+                                <br>
+                                <h3>Sunday</h3>
+
+
+                                <p>12pm-8pm</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-reviews">
+                        <div class="card">
+                            <div class="card-section">
+                                <h2>Get in touch with Us</h2>
+                                <br>
+                                <br>
+                                <h3>Phone number</h3>
+                                <br>
+                                <p>07834782579</p>
+                                <br>
+                                <h3><i class="fa-regular fa-envelope"></i>Email</h3>
+                                <br>
+                                <p>ricardomatos_976@hotmail.com</p>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- end  -->
+        <footer>
+            <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"> <i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"> <i class="fab fa-youtube-square"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram"></i></a></li>
             </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <body>
-    <!--hero image and welcome text-->
-  <section id="hero-outer">
-    <div id="hero-image"></div>
-    <!-- <div class="opaque-overlay"></div> -->
-  </section>
-  <!--menus pics with links to full menus-->
-  <section id="menus-outer">
-
-  </section>
-  <!--reviews-->
-  <section id="reviews-outer">
-
-  </section>
-  <!--contact, opening/closing times and social media links-->
-  <section id="info-outer">
-
-  </section>
-  <!--copyright and legal-->
-  <footer>
-
-  </footer>
-
-
-
-
-</body>
+            Made by Ricardo Matos &copy; 2022
+        </footer>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        
+    </body>
 
 </html>
