@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@100;200;300;400&family=Playfair+Display&display=swap');port url('https://fonts.googleapis.com/css2?family=family=Playfair+Display&Roboto:wght@100,400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@100;200;300;400&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=family=Playfair+Display&Roboto:wght@100,400;700&display=swap');
 
 
 /* Reset */
@@ -18,11 +19,20 @@ body {
 
 }
 
-h1 ,h2, h3, h4, h5, h6 {
-font-family: 'DM Serif Display', serif;;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DM Serif Display', serif;
+  ;
 }
-p, a {
-  font-family: 'Montserrat', sans-serif;;
+
+p,
+a {
+  font-family: 'Montserrat', sans-serif;
+  ;
 }
 
 
@@ -47,6 +57,7 @@ ul li a {
   display: inline-block;
   transition: color .25s ease-in-out;
 }
+
 ul li a:hover {
   color: #627a7b;
 }
@@ -78,20 +89,22 @@ ul li a:hover {
 
 
 /* Card system */
-.card{
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.card-section{
+.card-section {
   padding: 30px;
-  
+
 }
-.card-section p:last-child{
+
+.card-section p:last-child {
   margin-bottom: 0;
 }
+
 /* Header */
 .header {
   background-color: #101820;
@@ -110,7 +123,8 @@ ul li a:hover {
 .header .logo a {
   color: #fafafa;
   font-size: 2rem;
-  font-family: 'DM Serif Display', serif;;
+  font-family: 'DM Serif Display', serif;
+  ;
 }
 
 .header-nav a {
@@ -123,20 +137,23 @@ ul li a:hover {
   overflow: hidden;
   position: relative;
 }
+
 .hero-outer .row {
-justify-content: center;
+  justify-content: center;
 }
 
 .hero-text {
   padding-top: 150px;
   padding-bottom: 150px;
-  position: relative; 
-  z-index: 1; 
+  position: relative;
+  z-index: 1;
   color: #fafafa;
 }
-.hero-text h1  {
+
+.hero-text h1 {
   font-size: 55px;
 }
+
 .hero-text h3 {
   font-size: large;
 }
@@ -172,7 +189,9 @@ justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+.menu-pics {
+  width: 100%;
+}
 
 /* Info */
 .info-outer {
@@ -189,9 +208,7 @@ justify-content: center;
   -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
 }
-/* .column-reviews { */
-  /* background-color: #f4b223;
-} */
+
 .column-reviews {
   background-color: #627a7b;
   color: #fafafa;
@@ -200,11 +217,8 @@ justify-content: center;
   -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
 }
 
-/*Menus photos*/
-.menu-pics {
-  width:100%;
 
-}
+
 /*Footer*/
 footer {
   /* height: 150px; */
@@ -220,61 +234,71 @@ footer {
 }
 
 .social-networks li {
-display: inline;
+  display: inline;
 }
+
 .social-networks {
   font-size: 200%;
   margin: 1%;
   padding: 10px;
   color: #627a7b;
 }
-.social-networks a:visited, a:active {
+
+.social-networks a:visited,
+a:active {
   color: #627a7b;
 }
+
 .social-networks a:hover {
-color: #fafafa;
+  color: #fafafa;
 }
 
 /*Links decorations*/
 .call-us-link {
-  border:2px solid #fafafa;
+  border: 2px solid #fafafa;
   padding: 8px 20px;
   border-radius: 100px;
   color: #fafafa;
   transition: background-color .25s ease-in-out, border-color .25s ease-in-out;
 }
 
-
-
-  .call-us-link:visited, .call-us-link:active {
-    color: #fafafa;
-  }
-
-  
-  .call-us-link:hover {
-    color: #fafafa ;
-    background-color: #101820;
-    border-color: #101820;
-    }
-
-
-  .reviews .card {
-    color: #101820;
-  }  
-.reviews .row {
-  justify-content: center;
+.call-us-link:visited,
+.call-us-link:active {
+  color: #fafafa;
 }
 
-.reviews .reviews-slick{
-  max-width: 100%;
+.call-us-link:hover {
+  color: #fafafa;
+  background-color: #101820;
+  border-color: #101820;
 }
-.column-menus a:visited,:active {
+
+.column-menus:visited,
+.column-menus:active {
   color: #fafafa;
 }
 
 .column-menus a:hover {
   color: #101820;
 }
+
+
+.reviews .card {
+  color: #101820;
+}
+
+.reviews .row {
+  justify-content: center;
+}
+
+.reviews .reviews-slick {
+  max-width: 100%;
+}
+
+.star-rating {
+  color: yellow;
+}
+
 
 /* Media Queries */
 

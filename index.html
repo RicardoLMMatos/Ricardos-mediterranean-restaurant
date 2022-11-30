@@ -37,18 +37,12 @@
     <body>
         <!--hero image and welcome text-->
 
-        <!-- Use classes. I generally use IDs for JavaScript, Forms, Menus, Blog single pages. Not for page sections -->
-        <!-- This is because a page section can be used more than once on a page -->
-
-        <section class="hero-outer">
-            <!-- full width -->
+         <section class="hero-outer">
             <div class="opaque-overlay"></div>
             <div class="hero-image"></div>
-            <!-- Let's use the grid system here (can use this in any section) -->
             <div class="container">
                 <div class="row">
                     <div class="column m-col-6 t-col-6 d-col-6">
-                        <!-- I renamed cover text to hero text as it is part of the hero -->
                         <div class="hero-text">
                             <h1>Ricardo's</h1>
                             <br>
@@ -62,10 +56,8 @@
             </div>
 
         </section>
-        <!--menus pics with links to full menus-->
+        <!--menus section with pictures linked to full menus-->
         <section class="menus">
-            <!-- container, row and column are reusable inside any section -->
-            <!-- card section is reusable inside any section -->
             <div class="container">
                 <div class="row">
                     <div class="column t-col-6 d-col-3">
@@ -94,7 +86,7 @@
                     </div>
                 </div>
         </section>
-        <!--reviews-->
+        <!--reviews secction-->
         <section class="reviews">
             <div class="container">
                 <div class="row">
@@ -102,9 +94,10 @@
                         <div class="card">
                             <p>Some of our amazing reviews</p>
                             <br>
+                            <br>
                             <div class="reviews-slick">
                                 <div>
-                                    <h2>&star; &star; &star; &star; &star; &#9733</h2>
+                                    <h2 class="star-rating">&#9733; &#9733; &#9733; &#9733; &#9733</h2>
                                     
                                     <h2>Amazing food and hospitality 
                                         <br>
@@ -114,6 +107,7 @@
                                         all.</h2>
                                 </div>
                                 <div>
+                                    <h2 class="star-rating">&#9733; &#9733; &#9733; &#9733; &#9733</h2>
                                     <h2>Great food and friendly service.
                                         <br>
                                         I visited this restaurant yesterday late afternoon for an office leaving do. The
@@ -122,7 +116,7 @@
                                         everyone. I will return.</h2>
                                 </div>
                                 <div>
-                                    <h2>&star; &star; &star; &star; &star;</h2>
+                                    <h2 class="star-rating">&#9733; &#9733; &#9733; &#9733; &#9733</h2>
                                     <h2>Great meal
                                         <br>
                                         As always great service. The food is delicioso and flavours excellent. The place
@@ -139,7 +133,7 @@
             </div>
         </section>
 
-        <!--contact-->
+        <!--info and contact section-->
         <section class="info-outer">
             <div class="container">
                 <div class="row ">
@@ -154,7 +148,7 @@
                                     </h3>
                                     <br>
                                     <br>
-                                    <br>
+                                    
                                     <a href="contact.html" target="_blank" class="call-us-link">GIVE US A CALL</a>
 
 
@@ -196,17 +190,14 @@
                                 <br>
                                 <p>ricardomatos_976@hotmail.com</p>
 
-
-
-
-                            </div>
+                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- end  -->
+        <!--Footer section -->
         <footer>
             <ul class="social-networks">
                 <li><a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a></li>
@@ -216,6 +207,8 @@
             </ul>
             <p>Made by Ricardo Matos &copy; 2022</p>
         </footer>
+
+        <!--js-->
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
