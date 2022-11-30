@@ -184,6 +184,20 @@ ul li a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*Welcome area*/
+.welcome {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  color: #101820;
+  
+}
+.welcome-text {
+  font-size: medium;
+}
+.welcome .row {
+  justify-content: center;
+}
+
 /* Menus */
 .menus {
   padding-top: 50px;
@@ -298,6 +312,14 @@ a:active {
 .star-rating {
   color: yellow;
 }
+
+/*Br decoration*/
+/* .br-deco { */
+  color: #627a7b;
+}
+
+
+
 
 
 /* Media Queries */
