@@ -206,6 +206,7 @@ ul li a:hover {
 .welcome-text h3{
   font-size: medium;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
 }
 .welcome .row {
   justify-content: center;
