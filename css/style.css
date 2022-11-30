@@ -186,8 +186,8 @@ ul li a:hover {
 
 /* Menus */
 .menus {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .menu-pics {
   width: 100%;
@@ -273,8 +273,8 @@ a:active {
   border-color: #101820;
 }
 
-.column-menus:visited,
-.column-menus:active {
+.column-menus a:visited,
+.column-menus a:active {
   color: #fafafa;
 }
 
