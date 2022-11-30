@@ -1,3 +1,4 @@
+/*I use Goole fonts for fonts*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@100;200;300;400&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=family=Playfair+Display&Roboto:wght@100,400;700&display=swap');
 
@@ -187,7 +188,7 @@ ul li a:hover {
 /*Welcome area*/
 .welcome {
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   margin-top: 50px;
   color: #101820;
   /* border: 1px solid #101820; */
@@ -202,8 +203,9 @@ ul li a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.welcome-text {
+.welcome-text h3{
   font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .welcome .row {
   justify-content: center;
