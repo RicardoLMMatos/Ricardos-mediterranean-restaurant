@@ -165,6 +165,7 @@ ul li a:hover {
 
 .hero-image {
   /*free to use image taken from https://pixabay.com/*/
+  background-color: #627a7b;
   background-image: url("../images/hero-image.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -184,16 +185,16 @@ ul li a:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /*Welcome area*/
 .welcome {
   padding-top: 25px;
   padding-bottom: 20px;
-  margin-top: 50px;
+  margin-top: 0px;
   color: #333;
-  /* border: 1px solid #101820; */
+ 
   }
 .break-line {
   color: #627a7b;
@@ -293,7 +294,7 @@ footer {
 }
 
 .social-networks a:visited,
-a:active {
+.social-networks a:active {
   color: #627a7b;
 }
 
