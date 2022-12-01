@@ -165,7 +165,7 @@ ul li a:hover {
 
 .hero-image {
   /*free to use image taken from https://pixabay.com/*/
-  background-image: url("../images/main_img.jpg");
+  background-image: url("../images/hero-image.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -204,6 +204,7 @@ ul li a:hover {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 25px;
+  justify-content: center;
 }
 .welcome-text h3{
   font-size: medium;
@@ -214,7 +215,7 @@ ul li a:hover {
   justify-content: center;
 }
 
-/* Menus */
+/* Menus section */
 .menus {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -222,8 +223,24 @@ ul li a:hover {
 .menu-pics {
   width: 100%;
 }
+/*Reviews section*/
+.reviews .card {
+  color: #333;
+}
 
-/* Info */
+.reviews .row {
+  justify-content: center;
+}
+
+.reviews .reviews-slick {
+  max-width: 100%;
+}
+
+.star-rating {
+  color: gold;
+}
+
+/* Info section */
 .info-outer {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -314,21 +331,7 @@ a:active {
 }
 
 
-.reviews .card {
-  color: #333;
-}
 
-.reviews .row {
-  justify-content: center;
-}
-
-.reviews .reviews-slick {
-  max-width: 100%;
-}
-
-.star-rating {
-  color: gold;
-}
 
 
 
