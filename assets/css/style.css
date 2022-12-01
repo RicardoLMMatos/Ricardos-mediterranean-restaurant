@@ -242,8 +242,7 @@ ul li a:hover {
 }
 .welcome-text h3{
   font-size: medium;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: lighter;
+  font-family: 'Montserrat', serif;
 }
 .welcome .row {
   justify-content: center;
@@ -251,7 +250,7 @@ ul li a:hover {
 
 /* Menus section */
 .menus {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 50px;
 }
 .menu-pics {
