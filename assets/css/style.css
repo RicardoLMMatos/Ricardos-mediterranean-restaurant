@@ -64,6 +64,39 @@ ul li a:hover {
   color: #627a7b;
 }
 
+/*Nav bar dropdown menu*/
+.dropbtn {
+  font-family: 'Montserrat', serif;
+  background-color: #101820;
+  color: #fafafa;
+  padding: 10px;
+  font-size: inherit;
+  border: none;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #101820;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
 /* Grid system */
 
 .container {
