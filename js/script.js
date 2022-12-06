@@ -1,3 +1,4 @@
+/*This piece of javascript code was copied from w3schools website and modified by me*/
 $(document).ready(function(){
 
     $('.reviews-slick').slick({
