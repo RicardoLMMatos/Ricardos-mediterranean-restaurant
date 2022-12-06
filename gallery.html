@@ -15,28 +15,56 @@
 
 <body>
 
-    <!--Header section-->
-    <header class="header">
+      <!--Header section-->
+      <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="column d-col-6">
+            <div class="row header-nav">
+                <div class="column m-col-6 t-col-6 d-col-6">
                     <span class="logo"><a href="index.html">Ricardo's</a></span>
                 </div>
-                <div class="column d-col-6">
-                    <nav class="header-nav">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li class="dropdown-menu">
-                                <div class="dropdown">
-                                    <button class="dropbtn">Our Menus</button>
-                                    <div class="dropdown-content">
-                                      <a href="assets/images/main-menu.jpg" target="_blank">Main Menu</a>
-                                      <a href="assets/images/kids-menu.jpg" target="_blank">Kids Menu </a>
-                                      <a href="assets/images/christmas-menu.jpg" target="_blank">Christmas Menu</a>
+                <div class="column m-col-6 t-col-6 d-col-6">
+
+                    <div class="desktop-nav">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="dropdown-menu">
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Our Menus</button>
+                                        <div class="dropdown-content">
+                                            <a href="assets/images/main-menu.jpg" target="_blank">Main Menu</a>
+                                            <a href="assets/images/kids-menu.jpg" target="_blank">Kids Menu </a>
+                                            <a href="assets/images/christmas-menu.jpg" target="_blank">Christmas
+                                                Menu</a>
+                                        </div>
                                     </div>
-                                </div>    
-                                
+
+                                </li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                    <div class="mobile-nav">
+
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+             
+                    </div>
+                </div>
+                <div class="column m-col-12 t-col-12 d-col-12 mobile-nav">
+                    <nav>
+                        <ul id="burger-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li>
+                                <a href="assets/images/main-menu.jpg" target="_blank">Main Menu</a>
                             </li>
+                            <li> <a href="assets/images/kids-menu.jpg" target="_blank">Kids Menu </a></li>
+                            <li> <a href="assets/images/christmas-menu.jpg" target="_blank">Christmas
+                                    Menu</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
@@ -175,6 +203,62 @@
                 </div>
             </div>
         </section>
+
+
+
+
+        <section class="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="column t-col-6 d-col-3">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-menus">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-menus">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-menus">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-menus">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-menus">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                    <div class="column t-col-6 d-col-3 column-menus">
+                        <div class="card">
+                                <img src="assets/images/lazagna.webp" alt="lazagna">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!--info and contact section-->
         <section class="info-outer">
