@@ -16,8 +16,7 @@
 <body>
 
       <!--Header section-->
-       <!--Header section-->
-       <header class="header">
+    <header class="header">
         <div class="container">
             <div class="row header-nav">
                 <div class="column m-col-6 t-col-6 d-col-6">
@@ -47,13 +46,13 @@
                         </nav>
 
                     </div>
-
+                    <!--the burger menu code was copied from W3schools website and modified by myself-->
                     <div class="mobile-nav">
 
                         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                             <i class="fa fa-bars"></i>
                         </a>
-             
+
                     </div>
                 </div>
                 <div class="column m-col-12 t-col-12 d-col-12 mobile-nav">
@@ -73,7 +72,8 @@
                 </div>
             </div>
         </div>
-    </header>    
+    </header>
+    
      <!--hero image and hero text-->
      <section class="hero-outer">
         <div class="opaque-overlay"></div>
@@ -94,7 +94,7 @@
     </section>
 
         <!--gallery secction-->
-        <!--The photos used for the gallery where taken from La Torre restaurant and I have full permition from the owner to use them for personal use)-->
+        <!--The photos used for the gallery where taken from La Torre restaurant and I have full permition from the owner to use them for personal use-->
        
          <section class="gallery">
             <div class="container">
@@ -227,6 +227,17 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
+         <!--Javascript for the burger menu was copied from W3schools and modified by me -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("burger-menu");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 
     </body>
 

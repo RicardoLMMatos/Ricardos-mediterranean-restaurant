@@ -360,6 +360,7 @@ a:active i::before {
 
 .gallery img{
   width: 100%;
+  height: 300px;
 }
 
 
