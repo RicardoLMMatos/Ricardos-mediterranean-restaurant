@@ -216,8 +216,8 @@ ul li a:hover {
 .break-line {
   color: #627a7b;
   width: 100%;
-  max-width: 300px;
-  Border: 2px;
+  max-width: 400px;
+  Border: 1px;
   border-style: solid;
   border-radius: 5px;
   margin: auto;
@@ -295,7 +295,6 @@ ul li a:hover {
 
 /*Footer*/
 footer {
-  /* height: 150px; */
   position: relative;
   overflow: hidden;
   background-color: #101820;
@@ -368,7 +367,23 @@ a:active i::before {
 }
 
 
-/*---------------------------- Media Queries------------------------*/
+/*-----------------------------Contact page-------------------------*/
+.contact {
+  display: flex;
+  flex-direction: row;
+  }
+
+  .contact-details {
+  width: 100%; 
+  height: auto;
+  position: relative;
+  justify-content: center;
+  background-color: green;
+  color: white;
+  }
+  
+
+/*-----------------------------Media Queries------------------------*/
 
 @media only screen and (max-width: 639px) {
   .grid-responsive {
