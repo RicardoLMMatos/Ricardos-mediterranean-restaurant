@@ -183,10 +183,11 @@ ul li a:hover {
 }
 
 .logo-img {
-  height: 400px;
-  width:auto;
+  /* height: 400px; */
+  /* width:auto; */
+  max-width: 100%;
   justify-content: center;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 
