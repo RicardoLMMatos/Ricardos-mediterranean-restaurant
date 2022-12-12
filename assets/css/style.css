@@ -371,6 +371,8 @@ a:active i::before {
 
 /*------------------------------gallery-----------------------------*/
 
+.gallery{padding-top: 15px;
+}
 .gallery img{
   width: 100%;
   height: 300px;
@@ -381,9 +383,7 @@ a:active i::before {
   transition: ease-in-out .5s;
   box-shadow: 0 0 0 1px #627a7b;
 }
-.gallery {
-  background-color: white;
-}
+
 
 
 /*-----------------------------Contact page-------------------------*/
