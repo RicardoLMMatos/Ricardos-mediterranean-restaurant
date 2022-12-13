@@ -387,51 +387,55 @@ a:active i::before {
 
 
 /*-----------------------------Contact page-------------------------*/
-.contact {
-  display: flex;
-  flex-direction: row;
-  }
 
   .contact-details {
-    width: 100%; 
-  background-color: #627a7b;
   position: relative;
   justify-content: center;
   padding: 25px;
-  background-color: #627a7b;
-  color: #fafafa;
+  color: #333;
   }
-  .contact-details .contact-btn-outer {
-  padding-top: 15px;
+  .contact-details .card {
+    border: 1px solid 	rgb(98, 122, 123 0.4);
+    /* background-color: #627a7b; */
   }
+
   input[type=text], select _{
-  width: 25%;
-    /* padding: 20px 20px; */
+  width: 300px;
+    padding: 5px 20px;
+    margin: 5px 0;
     display: inline-block;
     border: 1px solid #333;
     border-radius: 5px;  
   }
   input[type=email], select _{
-    width: 25%;
-      /* padding: 20px 20px; */
+      width: 300px;
+      padding: 5px 20px;
+      margin: 5px 0;
       display: inline-block;
       border: 1px solid #333;
       border-radius: 5px;  
   }  
   input[type=text]:focus{
-        outline: 2px solid #333;
+        outline: 2px solid #627a7b;
     }
     input[type=email]:focus{
-      outline: 2px solid #333;
+      outline: 2px solid #627a7b;
   }
     textarea {
-      width: 25%;
+      width: 300px;
       height: 100px;
+      margin: 5px 0;
+      padding: 5px 20px;
+      border: 1px solid #333;
       border-radius: 5px;
       display: inline-block;
-  }
+    };
+  
   textarea:focus {
-    outline: 2px solid #333;  
+    outline: 2px solid #627a7b;  
+  }
+  .contact-details .contact-btn {
+    background-color: #627a7b;
   }
   
                   
