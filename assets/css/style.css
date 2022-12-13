@@ -340,7 +340,7 @@ a:active i::before {
 }
 
 /*Links decorations*/
-.call-us-link {
+.contact-btn {
   border: 2px solid #fafafa;
   padding: 8px 20px;
   border-radius: 100px;
@@ -348,12 +348,12 @@ a:active i::before {
   transition: background-color .25s ease-in-out, border-color .25s ease-in-out;
 }
 
-.call-us-link:visited,
-.call-us-link:active {
+.contact-btn:visited,
+.contact-btn:active {
   color: #fafafa;
 }
 
-.call-us-link:hover {
+.contact-btn:hover {
   color: #fafafa;
   background-color: #101820;
   border-color: #101820;
@@ -393,14 +393,48 @@ a:active i::before {
   }
 
   .contact-details {
-  width: 100%; 
-  height: auto;
+    width: 100%; 
+  background-color: #627a7b;
   position: relative;
   justify-content: center;
+  padding: 25px;
   background-color: #627a7b;
-  color: #333;
+  color: #fafafa;
+  }
+  .contact-details .contact-btn-outer {
+  padding-top: 15px;
+  }
+  input[type=text], select _{
+  width: 25%;
+    /* padding: 20px 20px; */
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 5px;  
+  }
+  input[type=email], select _{
+    width: 25%;
+      /* padding: 20px 20px; */
+      display: inline-block;
+      border: 1px solid #333;
+      border-radius: 5px;  
+  }  
+  input[type=text]:focus{
+        outline: 2px solid #333;
+    }
+    input[type=email]:focus{
+      outline: 2px solid #333;
+  }
+    textarea {
+      width: 25%;
+      height: 100px;
+      border-radius: 5px;
+      display: inline-block;
+  }
+  textarea:focus {
+    outline: 2px solid #333;  
   }
   
+                  
 
 /*-----------------------------Media Queries------------------------*/
 
