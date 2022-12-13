@@ -432,7 +432,8 @@ a:active i::before {
     };
   
   textarea:focus {
-    outline: 2px solid #627a7b;  
+  outline: 2px solid #627a7b;
+    
   }
   .contact-details .contact-btn {
     background-color: #627a7b;
