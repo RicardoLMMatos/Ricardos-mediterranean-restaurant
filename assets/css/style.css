@@ -176,13 +176,10 @@ ul li a:hover {
 
 .hero-text h3 {
   font-size: 20px;
-  /* font-size: large; */
 }
 
 
 .logo-img {
-  /* height: 400px; */
-  /* width:auto; */
   max-width: 100%;
   justify-content: center;
 }
@@ -191,7 +188,7 @@ ul li a:hover {
 .hero-image {
   /*free to use image taken from https://pixabay.com/*/
   background-color: #627a7b;
-  background-image: url("../images/hero-image.jpg");
+  background-image: url("../images/hero-image.webp");
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
