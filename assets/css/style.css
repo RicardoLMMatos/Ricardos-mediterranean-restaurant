@@ -136,7 +136,10 @@ ul li a:hover {
   color: #fafafa;
   font-size: 2rem;
   font-family: 'Great Vibes', cursive;
-  ;
+}
+.header .logo a:hover {
+  transition: color .25s ease-in-out;
+  color: #627a7b;
 }
 
 .header-nav {
@@ -391,26 +394,24 @@ a:active i::before {
   padding: 25px;
   color: #333;
   }
-  .contact-details .card {
-    border: 1px solid 	rgb(98, 122, 123 0.4);
-    /* background-color: #627a7b; */
-  }
-
+ 
   input[type=text], select _{
-  width: 300px;
+  width: 90%;
     padding: 5px 20px;
     margin: 5px 0;
     display: inline-block;
     border: 1px solid #333;
     border-radius: 5px;  
+    font-family:'Playfair Display', serif;
   }
   input[type=email], select _{
-      width: 300px;
+      width: 90%;
       padding: 5px 20px;
       margin: 5px 0;
       display: inline-block;
       border: 1px solid #333;
       border-radius: 5px;  
+      font-family:'Playfair Display', serif;
   }  
   input[type=text]:focus{
         outline: 2px solid #627a7b;
@@ -419,14 +420,16 @@ a:active i::before {
       outline: 2px solid #627a7b;
   }
     textarea {
-      width: 300px;
+      width: 90%;
       height: 100px;
       margin: 5px 0;
       padding: 5px 20px;
       border: 1px solid #333;
       border-radius: 5px;
       display: inline-block;
-    };
+      font-family:'Playfair Display', serif;
+      font-size: 14px;
+    }
   
   textarea:focus {
   outline: 2px solid #627a7b;
@@ -446,7 +449,7 @@ a:active i::before {
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 639px) {
   .grid-responsive {
     flex-direction: row;
   }
@@ -511,12 +514,11 @@ a:active i::before {
     flex-direction: column;
   }
 
-  .mobile-nav #burger-menu {
+  .mobile-nav #burger-menu  {
     display: none;
   }
 
-
-
+  
 }
 
 @media only screen and (min-width: 1024px) {
