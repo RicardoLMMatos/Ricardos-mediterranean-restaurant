@@ -221,7 +221,7 @@ ul li a:hover {
 .hero-image {
   /*free to use image taken from https://pixabay.com/*/
   background-color: #627a7b;
-  background-image: url("../images/hero-image.webp");
+  background-image: url("../images/hero-image-opt.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -270,6 +270,7 @@ ul li a:hover {
   font-family: 'Montserrat', serif;
 }  
 
+
 .welcome .row {
   justify-content: center;
 }
@@ -314,6 +315,9 @@ ul li a:hover {
   position: relative;
 }
 
+.info-outer p:last-child{
+  word-break: break-all;
+}
 .column-menus {
   background-color: #627a7b;
   color: #fafafa;
@@ -412,10 +416,11 @@ a:active i::before {
   width: 100%;
   height: 300px;
   border-radius: 6px;
+  transition: ease-in-out .5s;
 }
 .gallery img:hover {
   transform: scale(1.1);
-  transition: ease-in-out .5s;
+
   box-shadow: 0 0 0 1px #627a7b;
 }
 
@@ -431,6 +436,7 @@ a:active i::before {
   }
  
   input[type=text], select _{
+
     width: 80%;
     padding: 5px 20px;
     margin: 5px 0;
@@ -474,13 +480,21 @@ a:active i::before {
     background-color: #627a7b;
   }
   .logo-contact {
-    font-size: 40px;
+    font-size: 44px;
   }
                   
 
 /*-----------------------------Media Queries------------------------*/
 
 @media only screen and (max-width: 639px) {
+
+  /* Headings */
+  .hero-text h1,
+  .logo-contact {
+    font-size: 31px;
+  }
+  
+  /* Grid */
   .grid-responsive {
     flex-direction: column;
   }
@@ -495,6 +509,9 @@ a:active i::before {
 /*  Reusable grid columns */
 @media only screen and (min-width: 0) and (max-width: 639px) {
 
+  .m-col-10 {
+    max-width: calc(90% - 30px);
+  }
 
   .m-col-3 {
     max-width: calc(33% - 30px);
@@ -506,6 +523,11 @@ a:active i::before {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 1023px) {
+
+  .t-col-10 {
+    max-width: calc(90% - 30px);
+  }
+
   .t-col-3 {
     max-width: calc(33% - 30px);
   }
@@ -516,6 +538,9 @@ a:active i::before {
 }
 
 @media only screen and (min-width: 1024px) {
+  .d-col-10 {
+    max-width: calc(90% - 30px);
+  }
   .d-col-3 {
     max-width: calc(33% - 30px);
   }
