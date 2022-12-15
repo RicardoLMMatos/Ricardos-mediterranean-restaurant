@@ -308,6 +308,9 @@ footer {
   color: #627a7b;
   text-align: center;
 }
+footer p {
+  margin-bottom: 10px;
+}
 
 .social-networks {
   text-align: center;
