@@ -482,7 +482,15 @@ a:active i::before {
   .logo-contact {
     font-size: 44px;
   }
-                  
+              
+  /*---------------------------Thank you page-----------------------*/
+  .container-thank-you {
+      display: flex;
+      justify-content: center;
+      border: 1px solid #627a7b;
+     justify-content: center;
+     font-family: 'Great Vibes', cursive;
+  }
 
 /*-----------------------------Media Queries------------------------*/
 
