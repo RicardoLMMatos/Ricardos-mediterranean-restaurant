@@ -403,9 +403,11 @@ a:active i::before {
   border-color: #101820;
 }
 
-
-.column-menus a:visited,
-.column-menus a:active {
+.column-menus  a {
+  color: #fafafa;
+}
+.column-menus  a:visited,
+.column-menus  a:active {
   color: #fafafa;
 }
 
