@@ -281,8 +281,8 @@ ul li a:hover {
 
 /* Menus section */
 .menus {
-  padding-top: 0px;
-  padding-bottom: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
   color: #fafafa;
 }
 
@@ -306,6 +306,10 @@ ul li a:hover {
 .reviews .reviews-slick {
   max-width: 100%;
 }
+.reviews .break-line {
+  width: 100%;
+max-width: 80%;
+}
 
 .star-rating {
   color: gold;
@@ -313,7 +317,7 @@ ul li a:hover {
 
 /* Info section */
 .info-outer {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 30px;
   overflow: hidden;
   position: relative;
