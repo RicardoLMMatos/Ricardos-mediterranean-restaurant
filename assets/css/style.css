@@ -308,7 +308,7 @@ ul li a:hover {
 }
 .reviews .break-line {
   width: 100%;
-max-width: 80%;
+max-width: 400px;
 }
 
 .star-rating {
@@ -515,8 +515,6 @@ textarea:focus {
   }
   
 .thank-you-message {
-  /* width: 80%; */
-  /* height: 100px; */
   border: 2px solid #627a7b;
   border-radius: 5px;
   padding: 20px 20px;
