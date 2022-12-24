@@ -389,10 +389,13 @@ a:active i::before {
 
 /*Links decorations*/
 .contact-btn {
-  border: 2px solid #fafafa;
+  display: inline-block;
   padding: 8px 20px;
-  border-radius: 100px;
-  color: #fafafa;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 1.2;
+  border: 2px solid white;
+  color: white;
   transition: background-color .25s ease-in-out, border-color .25s ease-in-out;
 }
 
@@ -508,6 +511,7 @@ textarea:focus {
 
 /*---------------------------Thank you page-----------------------*/
 .thank-you-section {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
