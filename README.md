@@ -147,9 +147,14 @@ The finished product came very close to the initial concept.
 
 
 
-| Index                                                                 | Book Now                                                                  |
+| Desktop Index                                                                 | Desktop Contact                                                                   |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | ![Index page wireframe](/assets/readme-images/desktop-home.png) | ![Booking page wireframe](/assets/readme-images/desk-contact.png) |
+
+| Mobile Index                                                                 | Mobile Contact                                                                   |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| ![Index page wireframe](/assets/readme-images/mob-home.png) | ![Booking page wireframe](/assets/readme-images/mob-cont.png) |
+
 
  * [Desktop home page wireframe](/assets/readme-images/desktop-home.png)
  * [Desktop gallery page wireframe](/assets/readme-images/desk-gallery.png)
