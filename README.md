@@ -49,17 +49,31 @@ Why in the heart of Morpeth?
   ___
 
 ## Structure ##
-___
+  ___
 
  ### The website is comprised of three pages(home page, gallery page and contact page), all accessible from the navigation menu.
 
-  All Pages on the website have:
+ - #### All Pages on the website have:
     
- * Navigation bar consisting of the restaurant logo linked to the home page and a navigation menu with colour change on hover for good user experince.
+ * Navigation bar consisting of the restaurant logo on the left side linked to the home page and a navigation menu on the right side with links to Home page, gallery page, menus (with a drop down menu that shows all the menus that open the desired menu with the    option to download it ) and a contact page.
+ The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens still ofering the same links as the desktop.
+ All the links change colour on hover for good user experince.
+
+  |                       **Full NavBar**                        |                           **Mobile Navbar**                           |
+  | :----------------------------------------------------------: | :-------------------------------------------------------------------: |
+  | ![NavBar on Desktop](/assets/readme-images/desk-navbar.png)  | ![Navigation Bar on Mobile](/assets/readme-images/mob-navbar.png)     |
+  |                      **Sticky NavBar**                       |                          **Dropdown NavBar**                          |
+  |  ![Desktop dropdown](/assets/readme-images/desk-dropdown.png)|    ![Mobile dropdown](/assets/readme-images/mob-dropdown.png)         |
+
+
  * Hero section with an image of well known mediterranean food ingredients with contrasting colors to keep the text readable.
+ The text changes on every page with the home page showing Ricardo's logo, the gallery showing the message "Gallery" and the contacr page shwiong the message "Contact us" for good user navigation.
+
+ ![Hero section](/assets/readme-images/hero-desk.png)
  * Footer with social media links with colour change on hover for good user experince and copyright information.
 
-      
+ ![Footer](/assets/readme-images/desk-footer.png)
+
 ### Home Page
 
  #### The home page consists of seven sections:
@@ -103,7 +117,7 @@ For the colours I have used some market research to see what colours are trendin
 
 #### Typography
 
-I have have combined a classic type of font for the logo and Welcome message header to give the user a wlecoming feeling and more modern fonts for the headers and body to be user frindly.
+I have have combined a classic type of font for the logo and Welcome message header to give the user a welcoming feeling and more modern fonts for the headers and body to be user frindly.
 My preference for fallback font is serif.
 
 All fonts used are from Google :
@@ -121,14 +135,22 @@ I have used diferent sources for images and to create the logo.
  * ![Logo](/assets/images/logo-no-background.png)
  ___
  * For the hero image I have used Pixabay:
-  [Pixabay](https://pixabay.com)
- - [Book Page Image](https://pixabay.com/photos/forest-forest-road-mountain-bike-4366094/)
- - [About Page Image](https://pixabay.com/photos/umbrail-bocchetta-di-forcola-2670920/)
+ [Pixabay](https://pixabay.com)
+ * For the gallery images I've used La Torre restaurant photos with the owners consent
+ [La Torre restaurant](https://www.latorrerestaurant.com/)
+ 
 
 #### Wireframes
 
 I have used Balsamic wireframe software to create my initial wireframes, for desktop, laptop, tablet and mobile.
 The finished product came very close to the initial concept.
+
+
+
+| Index                                                                 | Book Now                                                                  |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| ![Index page wireframe](/assets/readme-images/desktop-home.png) | ![Booking page wireframe](/assets/readme-images/desk-contact.png) |
+
  * [Desktop home page wireframe](/assets/readme-images/desktop-home.png)
  * [Desktop gallery page wireframe](/assets/readme-images/desk-gallery.png)
  * [Desktop contact page wireframe](/assets/readme-images/desk-contact.png)
