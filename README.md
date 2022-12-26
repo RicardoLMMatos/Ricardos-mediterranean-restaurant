@@ -96,7 +96,15 @@ ___
  * Hero image with "Contact us" message. 
  * contact information with email, phone number and address, and a contact form so the user can send an email with a message.
  * Footer section.
+
+### Future Implementations.
+
+ * Use Javascript to automaticly go back to the home page after submiting a form.
+ * Use JavaScript to make forms functional.
+ * A functional booking system for the online bookings.
+ * To turn the phone number and email message in to links on mobile.
 ___
+
 
 # Design
 
@@ -225,6 +233,7 @@ ___
 * [Fontawsome](https://fontawesome.com/) - icons
 * [Gimp](https://www.gimp.org/) -favicon
 * [Postermywall](https://www.postermywall.com/) - menus
+* [Coolors](https://coolors.co/) - colour pallete
 
 ### A personal thank you to:
 * My tutor Callum Jones for his help with course content and guidance 
