@@ -45,7 +45,7 @@ ___
 
  ### The website is comprised of three pages(home page, gallery page and contact page), all accessible from the navigation menu.
 
- - #### All Pages on the website contain:
+ #### Common sections:
     
  * Navigation bar consisting of the restaurant logo on the left side linked to the home page and a navigation menu on the right side with links to Home page, book a table (linked to contact page for now), gallery page, menus (with a drop down menu that shows all the menus that open the desired menu with the  option to download it ) and a contact page.
  The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens still ofering the same links as the desktop.
@@ -120,7 +120,9 @@ All fonts used are from Google :
 
 ### Imagery 
 I have used diferent sources for images and to create the logo and favicon, all free to use or with owners consent.
- * To create the logo I have used Adobe express, free for personal use:
+
+When creating the logo I wanted something that would be easily assosiated with food but elegant and modern so I've used The "great Vibes" font for the Ricardo's word which is an elegant font and easy to assosiate with food, specialy Italian food. For the rest of the logo I have used the "Montserrat" font clean and modern.
+ * To create the logo I have used Adobe express:
  [Adobe Express](https://www.adobe.com/express/create/logo)
  ___
  ![Logo](/assets/images/logo-no-background.png)
