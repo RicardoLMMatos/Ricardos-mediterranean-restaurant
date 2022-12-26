@@ -13,13 +13,15 @@ ___
 ___
 
 ### Initial Discusion
-
 Ricardo's is a classy but family friendly restaurant that offers traditional and modern mediterranean dishes with friendly and professional service.
+The website provides users with information about the restaurant food and drinks offer. It's targeted toward people who are looking for high quality food and service.
+Users can use the website the get information about products and prices and to make a booking or get in touch.
+
 
  ### Client Goals: 
 
   * To have an online presence.
-  * To display the food and drinks offer on the site.
+  * To display the food and drinks offer on the website.
   * To increase traffic to the physical site.
   * Increase online bookings via contact forms.
   * Increase our social media presence via social media links. 
@@ -41,15 +43,9 @@ Ricardo's is a classy but family friendly restaurant that offers traditional and
 
 ___
 ### Demographic
-___
-
-#### Ricardo's does not have a physical location (yet) but I would love to open it in the heart of Morpeth.
-
-* Local families
-  ___
 
 ## Structure ##
-  ___
+___
 
  ### The website is comprised of three pages(home page, gallery page and contact page), all accessible from the navigation menu.
 
@@ -132,7 +128,7 @@ I have used diferent sources for images and to create the logo.
  * To create the logo I have used Adobe express, free for personal use:
  [Adobe Express](https://www.adobe.com/express/create/logo)
  ___
- * ![Logo](/assets/images/logo-no-background.png)
+ ![Logo](/assets/images/logo-no-background.png)
  ___
  * For the hero image I have used Pixabay:
  [Pixabay](https://pixabay.com)
@@ -165,6 +161,7 @@ The finished product came very close to the initial concept.
  * [Mobile home page wireframe](/assets/readme-images/mob-home.png)
  * [Mobile gallery page wireframe](/assets/readme-images/mob-gallery.png)
  * [Mobile contact page wireframe](/assets/readme-images/mob-cont.png)
+ ___
 
 ## Technologies Used
 * [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - building, structuring and presenting project
@@ -175,9 +172,11 @@ The finished product came very close to the initial concept.
 * [VScode](https://code.visualstudio.com) - code editing
 * [GIT](https://git-scm.com/), [GitHub](https://github.com/) - tracking, storing, hosting project
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools) - inspecting and debugging code
+___
 
-##Testing
+## Testing
 
+___
 ## Deployment
 
 The Live link is [Link to page]
@@ -191,7 +190,7 @@ The Live link is [Link to page]
 ![GitHub deployment settings](documentation/deployment/deploy.png)
 
 #### To run the website on a local machine:
-1. Go to the [Barbershop Github Repo](https://github.com/)
+1. Go to the [Ricardo's mediterranean restaurant repo](https://github.com/RicardoLMMatos/Ricardos-mediterranean-restaurant/)
 2. Click on the green *Code* button and *Download ZIP*
 3. Extract the ZIP file on your local machine
 4. Run the *index.html* file in a browser
@@ -199,24 +198,32 @@ The Live link is [Link to page]
 ![GitHub Download ZIP section](documentation/deployment/local-run.png)
 
 #### To clone the repo:
-1. Go to the [Barbershop Github Repo](https://github.com/)
+1. Go to the [Ricardo's mediterranean repo](https://github.com/RicardoLMMatos/Ricardos-mediterranean-restaurant)
 2. Click the *Code* button to the right of the screen and copy the *HTTPs* link there
 3. Open a GitBash terminal and navigate to the directory where you want to locate the clone
 4. Type `git clone` and paste the copied *HTTPs* link, press the *Enter* key to begin the clone process
 
 ![GitHub section with repo HTTPs link](documentation/deployment/clone.png)
+___
 
-[Back to top](#table-of-contents)
 
 ## Credits
 ### Code
- [CodeInstitute Full Stack Developer Course](https://codeinstitute.net/ie/full-stack-software-development-diploma/) and other tutorials.
+ All my code was written based on what I have learned from [CodeInstitute Full Stack Developer Course](https://codeinstitute.net/ie/full-stack-software-development-diploma/) and [W3schools](https://www.w3schools.com/)
+ * CSS flexbox was based on what I have learned from [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+ * Burger Menu was implemented based on an example from [W3schools](https://www.w3schools.com/) and the icon from [Fontawsome](https://fontawesome.com/)
 
-- CSS Input Field Style was implemented based on the code examples from [FreeFrontend](https://freefrontend.com/css-input-text/)
-- Hamburger Menu was implemented based on the code tutorials from the Alvarotrigo posts [How To Make a Responsive Hamburger Menu](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) and [10+ Hamburger Menu Examples [CSS Only]](https://alvarotrigo.com/blog/hamburger-menu-css/)
 
 ### Media Content
-- [Google Map](https://maps.google.com) - map
-- [Google Fonts](https://fonts.google.com) - fonts
-- [FontAwesome](https://fontawesome.com) - icons
-- [Pexels](https://www.pexels.com), [Pixabay](https://pixabay.com), [StockSnap](https://stocksnap.io) - Free Stock Images
+* [Google Fonts](https://fonts.google.com) - fonts
+* [FontAwesome](https://fontawesome.com) - icons
+* [La Torre restaurant](https://www.latorrerestaurant.com/) - gallery images
+* [Pixabay](https://pixabay.com) - free Images
+* [Adobe Express](https://www.adobe.com/express/create/logo) - logo
+* [Fontawsome](https://fontawesome.com/) - icons
+
+### A personal thank you to:
+* My tutor Callum Jones for his help with course content and guidance 
+* My mentor Rahul for his guidance
+* Brent Towers for letting me use his food images
+* My course collegues for helping me with any questions I had
