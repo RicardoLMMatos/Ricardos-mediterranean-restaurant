@@ -14,7 +14,7 @@ ___
 ### Initial Discusion
 Ricardo's is a classy but family friendly restaurant that offers traditional and modern mediterranean dishes with friendly and professional service.
 The website provides users with information about the restaurant food and drinks offer. It's targeted toward people who are looking for high quality food and service.
-Users can use the website the get information about products and prices and to make a booking or get in touch.
+Users can use the website the get information about products, prices, events and to make a booking or get in touch.
 
 
  ### Client Goals: 
@@ -48,13 +48,13 @@ ___
  #### Common sections:
     
  * Navigation bar consisting of the restaurant logo on the left side linked to the home page and a navigation menu on the right side with links to Home page, book a table (linked to contact page for now), gallery page, menus (with a drop down menu that shows all the menus that open the desired menu with the  option to download it ) and a contact page.
- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens still ofering the same links as the desktop.
+ The navbar is fully responsive and changes to a burger menu on smaller screens still ofering the same links as the desktop.
  All the links change colour on hover for good user experince.
 
   |                       **Full NavBar**                        |                           **Mobile Navbar**                           |
   | :----------------------------------------------------------: | :-------------------------------------------------------------------: |
   | ![NavBar on Desktop](/assets/readme-images/desk-navbar.png)  | ![Navigation Bar on Mobile](/assets/readme-images/mob-navbar.png)     |
-  |                      **Sticky NavBar**                       |                          **Dropdown NavBar**                          |
+  |                      **Menus dropdown**                       |                          **Mobile Dropdown NavBar**                          |
   |  ![Desktop dropdown](/assets/readme-images/desk-dropdown.png)|    ![Mobile dropdown](/assets/readme-images/mob-dropdown.png)         |
 
 
