@@ -1,7 +1,7 @@
 
 # Ricardo's mediterranean restaurant 
-Ricardo's restaurant is my first web project and it aims to be a fully functional and responsive website. 
---
+### Ricardo's restaurant is my first web project and it aims to be a fully functional and responsive website. 
+
 You can check the website here [Ricardo's]
 
 
@@ -10,7 +10,6 @@ You can check the website here [Ricardo's]
 ___
 
 ## User Experience (UX)
-___
 
 ### Initial Discusion
 Ricardo's is a classy but family friendly restaurant that offers traditional and modern mediterranean dishes with friendly and professional service.
@@ -42,16 +41,13 @@ Users can use the website the get information about products and prices and to m
   * As a returning visitor, I want to be able to book a table.
 
 ___
-### Demographic
-
 ## Structure ##
-___
 
  ### The website is comprised of three pages(home page, gallery page and contact page), all accessible from the navigation menu.
 
- - #### All Pages on the website have:
+ - #### All Pages on the website contain:
     
- * Navigation bar consisting of the restaurant logo on the left side linked to the home page and a navigation menu on the right side with links to Home page, book a table (linked to contact page for now), gallery page, menus (with a drop down menu that shows all the menus that open the desired menu with the    option to download it ) and a contact page.
+ * Navigation bar consisting of the restaurant logo on the left side linked to the home page and a navigation menu on the right side with links to Home page, book a table (linked to contact page for now), gallery page, menus (with a drop down menu that shows all the menus that open the desired menu with the  option to download it ) and a contact page.
  The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens still ofering the same links as the desktop.
  All the links change colour on hover for good user experince.
 
@@ -100,7 +96,6 @@ ___
  * Hero image with "Contact us" message. 
  * contact information with email, phone number and address, and a contact form so the user can send an email with a message.
  * Footer section.
-
 ___
 
 # Design
@@ -124,7 +119,7 @@ All fonts used are from Google :
 
 
 ### Imagery 
-I have used diferent sources for images and to create the logo.
+I have used diferent sources for images and to create the logo and favicon, all free to use or with owners consent.
  * To create the logo I have used Adobe express, free for personal use:
  [Adobe Express](https://www.adobe.com/express/create/logo)
  ___
@@ -132,8 +127,13 @@ I have used diferent sources for images and to create the logo.
  ___
  * For the hero image I have used Pixabay:
  [Pixabay](https://pixabay.com)
+* To create the menus I have used Postermywall website:
+ [Postermywall](https://www.postermywall.com/)
  * For the gallery images I've used La Torre restaurant photos with the owners consent
  [La Torre restaurant](https://www.latorrerestaurant.com/)
+ * To create the favicon I have used Gimp software
+ [https://www.gimp.org/]
+
  
 
 ### Wireframes
@@ -143,11 +143,11 @@ The finished product came very close to the initial concept.
 
 
 
-| Desktop Index                                                                 | Desktop Contact                                                                   |
+| Desktop Index                                                                 | Desktop Contact                                                   |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | ![Index page wireframe](/assets/readme-images/desktop-home.png) | ![Booking page wireframe](/assets/readme-images/desk-contact.png) |
 
-| Mobile Index                                                                 | Mobile Contact                                                                   |
+| Mobile Index                                                                 | Mobile Contact                                                     |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | ![Index page wireframe](/assets/readme-images/mob-home.png) | ![Booking page wireframe](/assets/readme-images/mob-cont.png) |
 
@@ -221,6 +221,8 @@ ___
 * [Pixabay](https://pixabay.com) - free Images
 * [Adobe Express](https://www.adobe.com/express/create/logo) - logo
 * [Fontawsome](https://fontawesome.com/) - icons
+* [Gimp](https://www.gimp.org/) -favicon
+* [Postermywall](https://www.postermywall.com/) - menus
 
 ### A personal thank you to:
 * My tutor Callum Jones for his help with course content and guidance 
