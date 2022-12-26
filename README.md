@@ -43,9 +43,7 @@ ___
 ### Demographic
 ___
 
-Ricardo's does not have a physical location (yet) but I would love to open it in the heart of Morpeth.
---
-Why in the heart of Morpeth?
+#### Ricardo's does not have a physical location (yet) but I would love to open it in the heart of Morpeth.
 
 * Local families
   ___
@@ -78,7 +76,7 @@ Why in the heart of Morpeth?
 
 ### Home Page
 
- #### The home page consists of seven sections:
+ The home page consists of seven sections:
 
  * Navigation bar to easily and quicly access all the pages.
  * Hero section with Ricardo's logo with a simple and clean design. 
@@ -88,7 +86,7 @@ Why in the heart of Morpeth?
  * Information section that consists of contact, opening times and a booking link that takes the customer to the contact page.
  * Footer section.
 
-#### Gallery page
+### Gallery page
 
  The Gallery page consists of four sections:
 
@@ -98,7 +96,7 @@ Why in the heart of Morpeth?
  * Footer section.
 
     
-#### Contact us Page
+### Contact us Page
 
  The contact us page consists of four  sections:
 
@@ -111,13 +109,13 @@ ___
 
 # Design
 
-#### Colour Scheme
+### Colour Scheme
 
 For the colours I have used some market research to see what colours are trending and personal preference, I wanted to give the website a fine dininig yet warm and family friend place feeling.
 
 ![ScreenShot](assets/readme-images/colour-pallete.png)
 
-#### Typography
+### Typography
 
 I have have combined a classic type of font for the logo and Welcome message header to give the user a welcoming feeling and more modern fonts for the headers and body to be user frindly.
 My preference for fallback font is serif.
@@ -129,7 +127,7 @@ All fonts used are from Google :
 * [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?query=playfair) is used for the headers text on the page.
 
 
-#### Imagery 
+### Imagery 
 I have used diferent sources for images and to create the logo.
  * To create the logo I have used Adobe express, free for personal use:
  [Adobe Express](https://www.adobe.com/express/create/logo)
@@ -142,7 +140,7 @@ I have used diferent sources for images and to create the logo.
  [La Torre restaurant](https://www.latorrerestaurant.com/)
  
 
-#### Wireframes
+### Wireframes
 
 I have used Balsamic wireframe software to create my initial wireframes, for desktop, laptop, tablet and mobile.
 The finished product came very close to the initial concept.
@@ -168,3 +166,57 @@ The finished product came very close to the initial concept.
  * [Mobile gallery page wireframe](/assets/readme-images/mob-gallery.png)
  * [Mobile contact page wireframe](/assets/readme-images/mob-cont.png)
 
+## Technologies Used
+* [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - building, structuring and presenting project
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - website styling
+* [Balsamiq](https://balsamiq.com) - wireframes
+* [Adobe Express](https://www.adobe.com/express/create/logo) - to design the logo
+* [Convertio](https://convertio.co/jpeg-webp/) - to convert images to webp
+* [VScode](https://code.visualstudio.com) - code editing
+* [GIT](https://git-scm.com/), [GitHub](https://github.com/) - tracking, storing, hosting project
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools) - inspecting and debugging code
+
+##Testing
+
+## Deployment
+
+The Live link is [Link to page]
+
+#### To deploy the project:
+1. In the [GitHub repository](https://github.com/), navigate to the *Settings* tab.
+2. Once in Settings, navigate to the *Pages* tab on the left hand side.
+3. In the *Build and deployment* section under *Branch*, select the **master** branch and click *Save*.
+4. Once the master branch has been selected, the page will be automatically refreshed and a display indicates the successful deployment and the link to the address.
+
+![GitHub deployment settings](documentation/deployment/deploy.png)
+
+#### To run the website on a local machine:
+1. Go to the [Barbershop Github Repo](https://github.com/)
+2. Click on the green *Code* button and *Download ZIP*
+3. Extract the ZIP file on your local machine
+4. Run the *index.html* file in a browser
+
+![GitHub Download ZIP section](documentation/deployment/local-run.png)
+
+#### To clone the repo:
+1. Go to the [Barbershop Github Repo](https://github.com/)
+2. Click the *Code* button to the right of the screen and copy the *HTTPs* link there
+3. Open a GitBash terminal and navigate to the directory where you want to locate the clone
+4. Type `git clone` and paste the copied *HTTPs* link, press the *Enter* key to begin the clone process
+
+![GitHub section with repo HTTPs link](documentation/deployment/clone.png)
+
+[Back to top](#table-of-contents)
+
+## Credits
+### Code
+ [CodeInstitute Full Stack Developer Course](https://codeinstitute.net/ie/full-stack-software-development-diploma/) and other tutorials.
+
+- CSS Input Field Style was implemented based on the code examples from [FreeFrontend](https://freefrontend.com/css-input-text/)
+- Hamburger Menu was implemented based on the code tutorials from the Alvarotrigo posts [How To Make a Responsive Hamburger Menu](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) and [10+ Hamburger Menu Examples [CSS Only]](https://alvarotrigo.com/blog/hamburger-menu-css/)
+
+### Media Content
+- [Google Map](https://maps.google.com) - map
+- [Google Fonts](https://fonts.google.com) - fonts
+- [FontAwesome](https://fontawesome.com) - icons
+- [Pexels](https://www.pexels.com), [Pixabay](https://pixabay.com), [StockSnap](https://stocksnap.io) - Free Stock Images
