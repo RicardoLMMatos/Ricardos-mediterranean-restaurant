@@ -128,13 +128,14 @@ All fonts used are from Google :
 
 ### Imagery 
 I have used diferent sources for images and to create the logo and favicon, all free to use or with owners consent.
+#### Logo 
 
-When creating the logo I wanted something that would be easily assosiated with food but elegant and modern so I've used The "great Vibes" font for the Ricardo's word which is an elegant font and easy to assosiate with food, specialy Italian food. For the rest of the logo I have used the "Montserrat" font clean and modern.
- * To create the logo I have used Adobe express:
- [Adobe Express](https://www.adobe.com/express/create/logo)
+When creating the logo I wanted something that would be easily associated with food but elegant and modern so I've used the "great Vibes" font for the Ricardo's word which is an elegant font and easy to associate with food, specialy Italian food. For the rest of the logo I have used the "Montserrat" font clean and modern.
  ___
  ![Logo](/assets/images/logo-no-background.png)
  ___
+  * To create the logo I have used Adobe express:
+ [Adobe Express](https://www.adobe.com/express/create/logo)
  * For the hero image I have used Pixabay:
  [Pixabay](https://pixabay.com)
 * To create the menus I have used Postermywall website:
@@ -238,5 +239,6 @@ ___
 ### A personal thank you to:
 * My tutor Callum Jones for his help with course content and guidance 
 * My mentor Rahul for his guidance
+* My good friend William Hurst for his his advise 
 * Brent Towers for letting me use his food images
 * My course collegues for helping me with any questions I had

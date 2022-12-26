@@ -1,5 +1,4 @@
-/*I use Goole fonts for fonts*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Great+Vibes&family=Gudea&family=Montserrat:wght@100;200;300;400&family=Playfair+Display&display=swap');
+
 
 
 /* Reset */
@@ -28,7 +27,7 @@ h6 {
 
 p,
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', serif;
   ;
 }
 
@@ -220,7 +219,7 @@ ul li a:hover {
 .hero-image {
   /*free to use image taken from https://pixabay.com/*/
   background-color: #627a7b;
-  background-image: url("../images/hero-image-opt.jpg");
+  background-image: url("../images/hero-image.webp");
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
