@@ -241,7 +241,7 @@ ul li a:hover {
 }
 
 .break-line {
-  color: #627a7b;
+  background-color: #627a7b;
   width: 100%;
   max-width: 400px;
   Border: 1px;
