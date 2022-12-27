@@ -15,16 +15,6 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Playfair Display', serif;
-  ;
-}
-
 p,
 a {
   font-family: 'Montserrat', serif;
@@ -156,13 +146,13 @@ ul li a:hover {
 
 
 .logo {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', serif;
 }
 
 .header .logo a {
   color: #fafafa;
   font-size: 2rem;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', serif;
 }
 
 .header .logo a:hover {
