@@ -37,8 +37,8 @@ Users can use the website the get information about products, prices, events and
 
 ### Returning and frequent Visitor Goals:
 
-  * As a returning visitor, I want to find out about new products.
-  * As a returning visitor, I want to be able to book a table.
+  * As a returning or frequent visitor, I want to find out about new products and events.
+  * As a returning or frequent visitor, I want to be able to book a table or get in touch.
 
 ___
 ## Structure ##
@@ -54,7 +54,7 @@ ___
   |                       **Full NavBar**                        |                           **Mobile Navbar**                           |
   | :----------------------------------------------------------: | :-------------------------------------------------------------------: |
   | ![NavBar on Desktop](/assets/readme-images/desk-navbar.png)  | ![Navigation Bar on Mobile](/assets/readme-images/mob-navbar.png)     |
-  |                      **Menus dropdown**                       |                          **Mobile Dropdown NavBar**                          |
+  |                      **Menus dropdown**                       |                          **Mobile Dropdown NavBar**                  |
   |  ![Desktop dropdown](/assets/readme-images/desk-dropdown.png)|    ![Mobile dropdown](/assets/readme-images/mob-dropdown.png)         |
 
 
@@ -96,17 +96,16 @@ ___
  * Hero image with "Contact us" message. 
  * contact information with email, phone number and address, and a contact form so the user can send an email with a message.
  * Footer section.
+ ___
 
-### Future Implementations.
+## Future Implementations.
 
  * Use Javascript to automaticly go back to the home page after submiting a form.
- * Use JavaScript to make forms functional.
  * A functional booking system for the online bookings.
- * To turn the phone number and email message in to links on mobile.
-___
+ * To turn the phone number and email links on contact us sections clickable.
+  ___
 
-
-# Design
+## Design
 
 ### Colour Scheme
 
@@ -198,15 +197,11 @@ The Live link is [Link to page]
 3. In the *Build and deployment* section under *Branch*, select the **master** branch and click *Save*.
 4. Once the master branch has been selected, the page will be automatically refreshed and a display indicates the successful deployment and the link to the address.
 
-![GitHub deployment settings](documentation/deployment/deploy.png)
-
 #### To run the website on a local machine:
 1. Go to the [Ricardo's mediterranean restaurant repo](https://github.com/RicardoLMMatos/Ricardos-mediterranean-restaurant/)
 2. Click on the green *Code* button and *Download ZIP*
 3. Extract the ZIP file on your local machine
 4. Run the *index.html* file in a browser
-
-![GitHub Download ZIP section](documentation/deployment/local-run.png)
 
 #### To clone the repo:
 1. Go to the [Ricardo's mediterranean repo](https://github.com/RicardoLMMatos/Ricardos-mediterranean-restaurant)
@@ -214,7 +209,6 @@ The Live link is [Link to page]
 3. Open a GitBash terminal and navigate to the directory where you want to locate the clone
 4. Type `git clone` and paste the copied *HTTPs* link, press the *Enter* key to begin the clone process
 
-![GitHub section with repo HTTPs link](documentation/deployment/clone.png)
 ___
 
 
@@ -222,7 +216,7 @@ ___
 ### Code
  All my code was written based on what I have learned from [CodeInstitute Full Stack Developer Course](https://codeinstitute.net/ie/full-stack-software-development-diploma/) and [W3schools](https://www.w3schools.com/)
  * CSS flexbox was based on what I have learned from [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
- * Burger Menu was implemented based on an example from [W3schools](https://www.w3schools.com/) and the icon from [Fontawsome](https://fontawesome.com/)
+ * Burger Menu was implemented based on an example from [W3schools](https://www.w3schools.com/)
 
 
 ### Media Content
