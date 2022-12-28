@@ -129,7 +129,7 @@ All fonts used are from Google :
 I have used diferent sources for images and to create the logo and favicon, all free to use or with owners consent.
 #### Logo 
 
-When creating the logo I wanted something that would be easily associated with food but elegant and modern so I've used the "great Vibes" font for the Ricardo's word which is an elegant font and easy to associate with food, specialy Italian food. For the rest of the logo I have used the "Montserrat" font clean and modern.
+When creating the logo I wantedto create a logo that would be easily associated with food but elegant and modern so I've used the "great Vibes" font for the Ricardo's word which is in my opinion easy to associate with food, specialy Italian food. For the rest of the logo I have used the "Montserrat" font which is  clean and modern.
  ___
  ![Logo](/assets/images/logo-no-background.png)
  ___
