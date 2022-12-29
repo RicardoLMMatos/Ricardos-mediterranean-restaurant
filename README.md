@@ -2,7 +2,7 @@
 # Ricardo's mediterranean restaurant 
 ### Ricardo's restaurant is my first web project and it aims to be a fully functional and responsive website. 
 
-You can check the website here [Ricardo's]
+You can check the website here ![Ricardo's](https://ricardolmmatos.github.io/Ricardos-mediterranean-restaurant/)
 
 
 ![ScreenShot](./assets/readme-images/3-devices-black.png)
