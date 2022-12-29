@@ -146,7 +146,7 @@ ul li a:hover {
 }
 
 .header .logo a {
-  color: #fafafa;
+  color: #ffffff;
   font-size: 2rem;
   font-family: 'Great Vibes', serif;
 }
@@ -161,8 +161,7 @@ ul li a:hover {
 }
 
 .header-nav a {
-  color: #fafafa;
-
+  color: #ffffff;
 }
 
 
@@ -183,7 +182,8 @@ ul li a:hover {
   position: relative;
   justify-content: center;
   z-index: 1;
-  color: #fafafa;
+  color: #ffffff;
+
 }
 
 .hero-text h1 {
@@ -262,7 +262,7 @@ ul li a:hover {
 .menus {
   padding-top: 0;
   padding-bottom: 0;
-  color: #fafafa;
+  color: #ffffff;
 }
 
 .menu-pics {
@@ -309,7 +309,7 @@ ul li a:hover {
 
 .column-menus {
   background-color: #627a7b;
-  color: #fafafa;
+  color: #ffffff;
   /*For this shadow I've used https://cssgenerator.org/box-shadow-css-generator.html*/
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
@@ -318,7 +318,7 @@ ul li a:hover {
 
 .column-info {
   background-color: #627a7b;
-  color: #fafafa;
+  color: #ffffff;
   /*For this shadow I've used https://cssgenerator.org/box-shadow-css-generator.html*/
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
@@ -364,7 +364,7 @@ a:active i::before {
 }
 
 .social-networks a:hover i::before {
-  color: #fafafa;
+  color: #ffffff;
 }
 
 /*Links decorations*/
@@ -381,17 +381,17 @@ a:active i::before {
 
 .contact-btn:visited,
 .contact-btn:active {
-  color: #fafafa;
+  color: #ffffff;
 }
 
 .contact-btn:hover {
-  color: #fafafa;
+  color: #ffffff;
   background-color: #101820;
   border-color: #101820;
 }
 
 .column-menus a {
-  color: #fafafa;
+  color: #ffffff;
 }
 
 .column-menus a:visited,
@@ -496,7 +496,7 @@ textarea:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fafafa;
+  color: #ffffff;
 }
 
 .thank-you-message {
