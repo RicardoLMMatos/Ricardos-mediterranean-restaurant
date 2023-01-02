@@ -5,7 +5,7 @@
 You can check the website here [Ricardo's](https://ricardolmmatos.github.io/Ricardos-mediterranean-restaurant/)
 
 
-![ScreenShot](./assets/readme-images/3-devices-black.png)
+![ScreenShot](./documentation/readme-images/3-devices-black.png)
 
 ___
 
@@ -74,20 +74,20 @@ ___
  The navbar is fully responsive and changes to a burger menu on smaller screens still ofering the same links as the desktop.
  All the links change colour on hover for good user experince.
 
-  |                       **Full NavBar**                        |                           **Mobile Navbar**                           |
-  | :----------------------------------------------------------: | :-------------------------------------------------------------------: |
-  | ![NavBar on Desktop](/assets/readme-images/desk-navbar.png)  | ![Navigation Bar on Mobile](/assets/readme-images/mob-navbar.png)     |
-  |                      **Menus dropdown**                       |                          **Mobile Dropdown NavBar**                  |
-  |  ![Desktop dropdown](/assets/readme-images/desk-dropdown.png)|    ![Mobile dropdown](/assets/readme-images/mob-dropdown.png)         |
+  |                       **Full NavBar**                               |                           **Mobile Navbar**                                  |
+  | :----------------------------------------------------------:        | :-------------------------------------------------------------------:        |
+  | ![NavBar on Desktop](/documentation/readme-images/desk-navbar.png)  | ![Navigation Bar on Mobile](/documentation/readme-images/mob-navbar.png)     |
+  |                      **Menus dropdown**                             |                          **Mobile Dropdown NavBar**                          |
+  |  ![Desktop dropdown](/documentation/readme-images/desk-dropdown.png)|    ![Mobile dropdown](/documentation/readme-images/mob-dropdown.png)         |
 
 
  * Hero section with an image of well known mediterranean food ingredients with contrasting colors to keep the text readable.
  The text changes on every page with the home page showing Ricardo's logo, the gallery showing the message "Gallery" and the contact page shwiong the message "Contact us" for easy user navigation.
 
- ![Hero section](/assets/readme-images/hero-desk.png)
+ ![Hero section](/documentation/readme-images/hero-desk.png)
  * Footer is simple and easy to understand with social media links and copyright information, the links change colour from green to white on hover for better user experience.
 
- ![Footer](/assets/readme-images/desk-footer.png)
+ ![Footer](/documentation/readme-images/desk-footer.png)
 
 ### Home Page
 
@@ -134,7 +134,7 @@ ___
 
 For the colours I have used some market research to see what colours are trending and personal preference, I wanted to give the website a fine dininig yet warm and family friend place feeling.
 
-![ScreenShot](assets/readme-images/colour-pallete.png)
+![ScreenShot](documentation/readme-images/colour-pallete.png)
 
 ### Typography
 
@@ -176,24 +176,24 @@ The finished product came very close to the initial concept.
 
 
 
-| Desktop Index                                                                 | Desktop Contact                                                   |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| ![Index page wireframe](/assets/readme-images/desktop-home.png) | ![Booking page wireframe](/assets/readme-images/desk-contact.png) |
+| Desktop Index                                                          | Desktop Contact                                                           |
+| ---------------------------------------------------------------------  | ------------------------------------------------------------------------- |
+| ![Index page wireframe](/documentation/readme-images/desktop-home.png) | ![Booking page wireframe](/documentation/readme-images/desk-contact.png)  |
 
-| Mobile Index                                                                 | Mobile Contact                                                     |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| ![Index page wireframe](/assets/readme-images/mob-home.png) | ![Booking page wireframe](/assets/readme-images/mob-cont.png) |
+| Mobile Index                                                           | Mobile Contact                                                            |
+| ---------------------------------------------------------------------  | ------------------------------------------------------------------------- |
+| ![Index page wireframe](/documentation/readme-images/mob-home.png)     | ![Booking page wireframe](/documentation/readme-images/mob-cont.png)      |
 
 
- * [Desktop home page wireframe](/assets/readme-images/desktop-home.png)
- * [Desktop gallery page wireframe](/assets/readme-images/desk-gallery.png)
- * [Desktop contact page wireframe](/assets/readme-images/desk-contact.png)
- * [Tablet home page wireframe](/assets/readme-images/tab-home.png)
- * [Tablet gallery page wireframe](/assets/readme-images/tab-gallery.png)
- * [Tablet contact page wireframe](/assets/readme-images/tab-contact.png)
- * [Mobile home page wireframe](/assets/readme-images/mob-home.png)
- * [Mobile gallery page wireframe](/assets/readme-images/mob-gallery.png)
- * [Mobile contact page wireframe](/assets/readme-images/mob-cont.png)
+ * [Desktop home page wireframe](/documentation/readme-images/desktop-home.png)
+ * [Desktop gallery page wireframe](/documentation/readme-images/desk-gallery.png)
+ * [Desktop contact page wireframe](/documentation/readme-images/desk-contact.png)
+ * [Tablet home page wireframe](/documentation/readme-images/tab-home.png)
+ * [Tablet gallery page wireframe](/documentation/readme-images/tab-gallery.png)
+ * [Tablet contact page wireframe](/documentation/readme-images/tab-contact.png)
+ * [Mobile home page wireframe](/documentation/readme-images/mob-home.png)
+ * [Mobile gallery page wireframe](/documentation/readme-images/mob-gallery.png)
+ * [Mobile contact page wireframe](/documentation/readme-images/mob-cont.png)
  ___
 
 ## Technologies Used
@@ -208,6 +208,7 @@ The finished product came very close to the initial concept.
 ___
 
 ## Testing
+See [TESTING.md](https://github.com/RicardoLMMatos/Ricardos-mediterranean-restaurant/blob/main/testing.md) for an overview of website testing and debugging.
 
 ___
 ## Deployment
