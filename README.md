@@ -9,6 +9,29 @@ You can check the website here [Ricardo's](https://ricardolmmatos.github.io/Rica
 
 ___
 
+
+## Table of Contents
+
+- [**Initial Discusion**](#Initial-Discusion)
+  - [Cient Goals](#Client-goals)
+  - [User Goals](#First-Time-Visitor-Goals)
+- [**StructureX**](#Structure)
+  - [Common sections](#Common-sections)
+  - [Home page](#Home-page)
+    - [Gallery page](#Gallery-page)
+    - [Contact us Page](#Contact-us-Page)
+    **Future Implementations**](#Future-Implementations)
+- [**Design**](#Design)
+  - [Colour Scheme](#ColourScheme)
+    - [Typography](#Typography)
+    - [Imagery](#Imagery)
+  - [Wireframes](#Wireframes)
+- [**Technologies Used**](#technologies-used)
+- [**Testing**](#testing)
+- [**Deployment**](#deployment)
+- [**Credits**](#credits)
+    - [Media Content](#media-conten)
+
 ## User Experience (UX)
 
 ### Initial Discusion
