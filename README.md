@@ -15,22 +15,22 @@ ___
 - [**Initial Discusion**](#Initial-Discusion)
   - [Cient Goals](#Client-goals)
   - [User Goals](#First-Time-Visitor-Goals)
-- [**StructureX**](#Structure)
+- [**Structure**](#Structure)
   - [Common sections](#Common-sections)
   - [Home page](#Home-page)
-    - [Gallery page](#Gallery-page)
-    - [Contact us Page](#Contact-us-Page)
-    **Future Implementations**](#Future-Implementations)
+  - [Gallery page](#Gallery-page)
+  - [Contact us Page](#Contact-us-Page)
+- [**Future Implementations**](#Future-Implementations)
 - [**Design**](#Design)
   - [Colour Scheme](#ColourScheme)
-    - [Typography](#Typography)
-    - [Imagery](#Imagery)
+  - [Typography](#Typography)
+  - [Imagery](#Imagery)
   - [Wireframes](#Wireframes)
 - [**Technologies Used**](#technologies-used)
 - [**Testing**](#testing)
 - [**Deployment**](#deployment)
 - [**Credits**](#credits)
-    - [Media Content](#media-conten)
+   
 
 ## User Experience (UX)
 
@@ -212,7 +212,7 @@ ___
 ___
 ## Deployment
 
-The Live link is [Link to page]
+The Live link is [Ricardo's](https://ricardolmmatos.github.io/Ricardos-mediterranean-restaurant/)
 
 #### To deploy the project:
 1. In the [GitHub repository](https://github.com/), navigate to the *Settings* tab.
