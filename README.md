@@ -13,7 +13,7 @@ ___
 ## Table of Contents
 
 - [**Initial Discusion**](#Initial-Discusion)
-  - [Cient Goals](#Client-goals)
+  - [Client Goals](#Client-goals)
   - [User Goals](#First-Time-Visitor-Goals)
 - [**Structure**](#Structure)
   - [Common sections](#Common-sections)
@@ -208,7 +208,7 @@ The finished product came very close to the initial concept.
 ___
 
 ## Testing
-See [TESTING.md](https://github.com/RicardoLMMatos/Ricardos-mediterranean-restaurant/blob/main/testing.md) for an overview of website testing and debugging.
+See [TESTING.md](https://github.com/RicardoLMMatos/Ricardos-mediterranean-restaurant/blob/main/documentation/Testing.md) for an overview of website testing and debugging.
 
 ___
 ## Deployment
