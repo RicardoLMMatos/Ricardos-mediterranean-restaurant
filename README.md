@@ -12,7 +12,7 @@ ___
 
 ## Table of Contents
 
-- [**Initial Discusion**](#Initial-Discusion)
+- [**Introduction**](#Initial-Discusion)
   - [Client Goals](#Client-goals)
   - [User Goals](#First-Time-Visitor-Goals)
 - [**Structure**](#Structure)
@@ -34,7 +34,7 @@ ___
 
 ## User Experience (UX)
 
-### Initial Discusion
+### Introduction
 Ricardo's is a classy but family friendly restaurant that offers traditional and modern mediterranean dishes with friendly and professional service.
 The website provides users with information about the restaurant food and drinks offer. It's targeted toward people who are looking for high quality food and service.
 Users can use the website the get information about products, prices, events and to make a booking or get in touch.
@@ -43,30 +43,33 @@ Users can use the website the get information about products, prices, events and
  ### Client Goals: 
 
   * To have an online presence.
-  * To display the food and drinks offer on the website.
+  * To display the food and drinks offers on the website.
   * To increase traffic to the physical site.
   * Increase online bookings via contact forms.
   * Increase our social media presence via social media links. 
-  * Simple to navigate around
-  * Not cluttered with too much information
+  * Convert website visitors into customers.
+  * Improve organic SEO via content.
 
 
 ### First Time Visitor Goals:
  
-  * I want to easely find the food and drinks offer and prices.
-  * I want to be able to access and download their menu for future use.
-  * I want to find out opening times and location.
-  * I want to quicly and easely book a table or get in touch with the restaurant.
+  * I want to easily find the food and drinks offers and prices.
+  * I want to be able to access and download the menu for future use.
+  * I want to find out opening times and locations.
+  * I want to quickly and easily book a table or get in touch with the restaurant.
 
 ### Returning and frequent Visitor Goals:
 
-  * As a returning or frequent visitor, I want to find out about new products and events.
-  * As a returning or frequent visitor, I want to be able to book a table or get in touch.
+  * As a returning or frequent visitor, I want to:
+   * Find out about new dishes
+   * Look at new reviews 
+   * Book a table 
+   * Make an enquiry
 
 ___
 ## Structure ##
 
- ### The website is comprised of three pages(home page, gallery page and contact page), all accessible from the navigation menu.
+ ### The website is has three pages (home page, gallery page and contact page) which are all accessible from the navigation menu.
 
  #### Common sections:
     
@@ -101,6 +104,8 @@ ___
  * Information section that consists of contact, opening times and a booking link that takes the customer to the contact page.
  * Footer section.
 
+ ![Home page](/documentation/readme-images/homepage-full.png)
+
 ### Gallery page
 
  The Gallery page consists of four sections:
@@ -110,6 +115,8 @@ ___
  * Food and drinks photos section.
  * Footer section.
 
+ ![Gallery page](/documentation/readme-images/gallery-full.png)
+
     
 ### Contact us Page
 
@@ -118,6 +125,8 @@ ___
  * Navigation bar to easily and quicly access all the pages.
  * Hero image with "Contact us" message. 
  * contact information with email, phone number and address, and a contact form so the user can send an email with a message.
+
+ ![Home page](/documentation/readme-images/contact-full.png)
  * Footer section.
  ___
 
