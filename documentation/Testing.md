@@ -23,7 +23,7 @@
 
 ## Functional Testing
 
-- ### Home page
+ - ### Home page
     Test | Result
     ---|:---:
     Page responsiveness | ok
@@ -35,7 +35,7 @@
     Main menu collpases to a burger menu on small screen | ok
     Social media icons in the footer link to the relevant social media and open in new tab | ok
 
-- ### Booking page (Form)
+ - ### Booking page (Form)
     Test | Result
     ---|:---:
     Form responsiveness | ok
@@ -46,7 +46,7 @@
     Submiting form data goes to thankyou page | ok
     Thank you page link to home page | ok
 
-- ### Gallery
+ - ### Gallery
     Test | Result
     ---|:---:
     Imagery grid responsiveness | ok
@@ -79,10 +79,11 @@ The website was tested using Google Chrome Developer Tools
 - Nest Hub
 - Nest Hub Max
 
-I have also tested the website on real mobile devices such as Samsung Galaxy S21, S10, Google Pixel, Huawei P30 and it is 100% responsive.
+I have also tested the website on real mobile devices such as Samsung Galaxy S21, S10, Google Pixel, Huawei P30, Iphone 11 and everything renders as intended and it is 100% responsive.
 
 
 ## Validator Testing
+
 ### HTML Validation
 The [W3C Markup Validation](https://validator.w3.org/) Service was used to validate the HTML of the website.
 No errors found.

@@ -120,21 +120,22 @@ ___
     
 ### Contact us Page
 
- The contact us page consists of four  sections:
+ The contact us page consists of four sections:
 
  * Navigation bar to easily and quicly access all the pages.
  * Hero image with "Contact us" message. 
- * contact information with email, phone number and address, and a contact form so the user can send an email with a message.
+ * Contact information with email, phone number and address, and a contact form so the user can send an email with a message.
+* Footer section.
 
  ![Home page](/documentation/readme-images/contact-full.png)
- * Footer section.
+
  ___
 
 ## Future Implementations.
 
- * Use Javascript to automaticly go back to the home page after submiting a form.
+ * Use Javascript to implement a thank you page redirect.
  * A functional booking system for the online bookings.
- * To turn the phone number and email links on contact us sections clickable.
+ * Add tel: and mailto: to the hrefs.
   ___
 
 ## Design
