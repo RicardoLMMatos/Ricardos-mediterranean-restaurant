@@ -415,7 +415,7 @@ a:active i::before {
   height: 300px;
   border-radius: 6px;
   transition: ease-in-out .5s;
-}
+   }
 
 .gallery img:hover {
   transform: scale(1.1);
