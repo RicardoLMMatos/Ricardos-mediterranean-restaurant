@@ -266,7 +266,10 @@ ul li a:hover {
 }
 
 .menu-pics {
+  /* width: 332px; */
+  /* height: 430px; */
   width: 100%;
+  max-width: 100%;
 }
 
 /*Reviews section*/
