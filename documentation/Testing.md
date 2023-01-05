@@ -4,7 +4,7 @@
 
 - [Functional Testing](#functional-testing)
     - [Home Page](#home-page)
-    - [Form](#booking-page-form)
+    - [Contact page](#contact-page)
     - [Gallery](#gallery)
 - [Compatibility Testing](#compatibility-testing)
     - [Browser Compatibility](#browser-compatibility)
@@ -16,9 +16,6 @@
         - [Gallery page](#gallery-page)
     - [CSS Validation](#css-validation)
     - [Accessibility and Performance](#accessibility-and-performance)
-        - [Home page](#home-page-2)
-        - [Booking page](#booking-page-1)
-        - [Gallery page](#gallery-page-1)
 - [Bugs/Issues](#bugsissues)
 
 ## Functional Testing
@@ -30,18 +27,19 @@
     Sticky navbar | ok
     Navigation hover effect | ok
     Logo link back to homepage | ok
+    hover effect on all links | ok
     Navigation links to relevant pages | ok
     Book Now and contact us link to booking form | ok
     Main menu collpases to a burger menu on small screen | ok
     Social media icons in the footer link to the relevant social media and open in new tab | ok
 
- - ### Booking page (Form)
+ - ### Contact page 
     Test | Result
     ---|:---:
     Form responsiveness | ok
     Filling out the booking form | ok
-    Service hover effect | ok
-    Input field effects and animations | ok
+    hover effect on all links | ok
+    Input field effects | ok
     Submiting the data | ok
     Submiting form data goes to thankyou page | ok
     Thank you page link to home page | ok
@@ -58,6 +56,7 @@ The website was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Egde
+- Tor browser
 
 
 
@@ -98,7 +97,7 @@ The [W3C Jigsaw CSS Validation](https://validator.w3.org/) Service was used to c
 ### Accessibility and Performance
 The [Google Chrome LightHouse](https://developer.chrome.com/docs/lighthouse) was used to do check the website performance and accessibility.
 #### Results
- - Initial results on performance were very low as the website has quite a few images and they were mostly in jpeg format so I have converted all images to Webp to improve the score.
+ - Initial results on performance were low as the website has quite a few images and they were mostly in jpeg format so I have converted all images to Webp and resized them using https://tinypng.com/ to improve the score.
  - Initial results on accessibility were just over 90% mostly because of some areas not having a sufficient contrast ratio so I have changed the font color from #fafafa to #ffffff to improve the score.
  - Initial results on best practices were just under 90% mostly due to some links not having the area-label atribute so the atribute was added to all links needing it to improve the score.
 
