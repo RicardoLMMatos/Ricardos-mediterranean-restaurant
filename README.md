@@ -215,6 +215,8 @@ The finished product came very close to the initial concept.
 * [VScode](https://code.visualstudio.com) - code editing
 * [GIT](https://git-scm.com/), [GitHub](https://github.com/) - tracking, storing, hosting project
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools) - inspecting and debugging code
+* [Tinypng](https://tinypng.com/) - resize images
+
 ___
 
 ## Testing

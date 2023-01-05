@@ -16,7 +16,7 @@
         - [Gallery page](#gallery-page)
     - [CSS Validation](#css-validation)
     - [Accessibility and Performance](#accessibility-and-performance)
-- [Bugs/Issues](#bugsissues)
+- [Bugs/Issues](#bugs-and-issues)
 
 ## Functional Testing
 
@@ -99,17 +99,18 @@ The [Google Chrome LightHouse](https://developer.chrome.com/docs/lighthouse) was
 #### Results
  - Initial results on performance were low as the website has quite a few images and they were mostly in jpeg format so I have converted all images to Webp and resized them using https://tinypng.com/ to improve the score.
  - Initial results on accessibility were just over 90% mostly because of some areas not having a sufficient contrast ratio so I have changed the font color from #fafafa to #ffffff to improve the score.
- - Initial results on best practices were just under 90% mostly due to some links not having the area-label atribute so the atribute was added to all links needing it to improve the score.
+ - Initial results on best practices were just under 90% mostly due to the gallery images changing aspect ratio, to fix this I've added "object-fit:cover" to the photos on my css file to improve the score.
 
   |                       **Home page desktop score**                                  |                           **Home page mobile score**                                     |
-  | :----------------------------------------------------------:                       | :-------------------------------------------------------------------:                    |
+  |        :----------------------------------------------------------:                |        :-------------------------------------------------------------------:             |
   | ![Home page desktop score](/documentation/readme-images/lighthouse-home-desk.png)  | ![Home page mobile score](/documentation/readme-images/lighthouse-homepage-mob.png)      |
   |                      **Gallery desktop score**                                     |                          **Gallery mobile score**                                        |
   |  ![Gallery desktop score](/documentation/readme-images/lighthouse-gallery-desk.png)| ![Gallery mobile score](/documentation/readme-images/lighthouse-gallery-mob.png)         |
-  |                       **Contact page desktop score**                                       |                           **Contact page mobile score**                                  |
+  |                       **Contact page desktop score**                               |                           **Contact page mobile score**                                  |
   | ![Contact page score](/documentation/readme-images/lighthouse-contact-desk.png)    | ![Contact page mobile score](/documentation/readme-images/lighthouse-contact-mob.png)    |
  
-
+## Bugs and issues
+I am not aware of any bugs or current issues.
 
 [Back to top](#contents)
 
