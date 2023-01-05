@@ -2,25 +2,22 @@
 
 ## Contents
 
-- [Functional Testing](#functional-testing)
-    - [Home Page](#home-page)
-    - [Contact page](#contact-page)
-    - [Gallery](#gallery)
-- [Compatibility Testing](#compatibility-testing)
-    - [Browser Compatibility](#browser-compatibility)
-    - [Device Compatability and Responsiveness Testing](#device-compatability-and-responsiveness-testing)
-- [Validator Testing](#validator-testing)
-    - [HTML Validation](#html-validation)
-        - [Home page](#home-page-1)
-        - [Booking page](#booking-page)
-        - [Gallery page](#gallery-page)
-    - [CSS Validation](#css-validation)
-    - [Accessibility and Performance](#accessibility-and-performance)
-- [Bugs/Issues](#bugs-and-issues)
+* [Functional Testing](#functional-testing)
+    * [Home Page](#home-page)
+    * [Contact page](#contact-page)
+    * [Gallery](#gallery)
+* [Compatibility Testing](#compatibility-testing)
+    * [Browser Compatibility](#browser-compatibility)
+    * [Device Compatability and Responsiveness Testing](#device-compatability-and-responsiveness-testing)
+* [Validator Testing](#validator-testing)
+    * [HTML Validation](#html-validation)
+    * [CSS Validation](#css-validation)
+    * [Accessibility and Performance](#accessibility-and-performance)
+* [Bugs/Issues](#bugs-and-issues)
 
 ## Functional Testing
 
- - ### Home page
+ * ### Home page
     Test | Result
     ---|:---:
     Page responsiveness | ok
@@ -53,30 +50,30 @@
 ## Compatibility Testing
 ### Browser Compatibility
 The website was tested on the following browsers:
-- Google Chrome
-- Mozilla Firefox
-- Microsoft Egde
-- Tor browser
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Egde
+* Tor browser
 
 
 
 ### Device Compatability and Responsiveness Testing
 The website was tested using Google Chrome Developer Tools
 #### Tested devices:
-- iPhone SE
-- iPhone XR
-- iPhone 12 Pro
-- Pixel 5
-- Samsung Galaxy S8+
-- Samsung Galaxy S20 Ultra
-- iPad Air
-- iPad Mini
-- Surface Pro 7
-- Surface Duo
-- Galaxy Fold
-- Samsung Galaxy A51
-- Nest Hub
-- Nest Hub Max
+* iPhone SE
+* iPhone XR
+* iPhone 12 Pro
+* Pixel 5
+* Samsung Galaxy S8+
+* Samsung Galaxy S20 Ultra
+* iPad Air
+* iPad Mini
+* Surface Pro 7
+* Surface Duo
+* Galaxy Fold
+* Samsung Galaxy A51
+* Nest Hub
+* Nest Hub Max
 
 I have also tested the website on real mobile devices such as Samsung Galaxy S21, S10, Google Pixel, Huawei P30, Iphone 11 and everything renders as intended and it is 100% responsive.
 
@@ -97,9 +94,9 @@ The [W3C Jigsaw CSS Validation](https://validator.w3.org/) Service was used to c
 ### Accessibility and Performance
 The [Google Chrome LightHouse](https://developer.chrome.com/docs/lighthouse) was used to do check the website performance and accessibility.
 #### Results
- - Initial results on performance were low as the website has quite a few images and they were mostly in jpeg format so I have converted all images to Webp and resized them using https://tinypng.com/ to improve the score.
- - Initial results on accessibility were just over 90% mostly because of some areas not having a sufficient contrast ratio so I have changed the font color from #fafafa to #ffffff to improve the score.
- - Initial results on best practices were just under 90% mostly due to the gallery images changing aspect ratio, to fix this I've added "object-fit:cover" to the photos on my css file to improve the score.
+ * Initial results on performance were low as the website has quite a few images and they were mostly in jpeg format so I have converted all images to Webp and resized them using https://tinypng.com/ to improve the score.
+ * Initial results on accessibility were just over 90% mostly because of some areas not having a sufficient contrast ratio so I have changed the font color from #fafafa to #ffffff to improve the score.
+ * Initial results on best practices were just under 90% mostly due to the gallery images changing aspect ratio, to fix this I've added "object-fit:cover" to the photos on my css file to improve the score.
 
   |                       **Home page desktop score**                                  |                           **Home page mobile score**                                     |
   |        :----------------------------------------------------------:                |        :-------------------------------------------------------------------:             |
